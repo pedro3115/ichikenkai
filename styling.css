@@ -90,6 +90,7 @@ header {
 
 .top-wrapper {
   padding:100px 70px 270px  70px;
+  width:100%;
 }
 
 .heading{
@@ -118,6 +119,7 @@ header {
 }
 
 .message-wrapper{
+  width:100%;
   padding:180px 0 100px 0;
   background-color: #860000;
   font-family: HiraginoMaruGothicPro;
@@ -148,6 +150,7 @@ header {
 }
 
 footer{
+  width:100%;
   padding:30px 70px;
   height:300px;
   background-color: white;
