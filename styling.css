@@ -17,14 +17,20 @@ a {
   text-decoration: none;
 }
 
+*{
+  box-sizing: border-box;
+}
+
 .container {
-  width: 1170px;
+  max-width: 1170px;
+  width: 100%;
   margin:0 auto;
 }
 
 header {
   height: 65px;
-  width: 100%;
+  width:100%;
+  padding:0 70px;
   background-color: rgba(247,247,247,0.9);
   position :fixed;
   top: 0;
@@ -34,7 +40,7 @@ header {
 .header-logo{
   float:left;
   height:37px;
-  margin:14px 0;
+  margin:14px auto;
   transition: all 0.3s;
 }
 
@@ -57,6 +63,14 @@ header {
   font-family:YuMincho;
 }
 
+.menu-icon {
+  color: #5f5d60;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
 .menu-bar {
   width:190px;
   float: right;
@@ -70,21 +84,15 @@ header {
 .menu-bar a {
   line-height: 65px;
   text-align:center;
-  padding: 0 25px;
   color: #5f5d60;
-  display: block;
-}
-
-.fa {
-  margin-right: 5px;
+  display:block;
 }
 
 .top-wrapper {
-  padding:100px 30px 500px 30px;
+  padding:100px 70px 270px  70px;
 }
 
 .heading{
-  float:left;
   display: inline-block;
 }
 
@@ -101,20 +109,16 @@ header {
 
 .top-wrapper img{
   display:inline-block;
-  float:right;
   width:600px;
   border-radius: 50px;
-  padding-top:10px;
-  opacity:0.95;
   position:fixed;
-  top:105px;
+  top:115px;
   right:60px;
   z-index:-10;
 }
 
 .message-wrapper{
-  height:1000px;
-  padding-top:180px;
+  padding:180px 0 100px 0;
   background-color: #860000;
   font-family: HiraginoMaruGothicPro;
 }
@@ -124,13 +128,12 @@ header {
   font-size: 40px;
   letter-spacing: 5px;
   color:white;
-  height: 500px;
+  margin-bottom: 100px;
 }
 
 .box{
   display: inline-block;
   float: left;
-  font-family:"FacebookOptimistic", sans-serif;
   width:50%;
 }
 
@@ -140,23 +143,20 @@ header {
   margin:0 auto;
 }
 
-.text{
-  width:80%;
-  text-align: center;
-  color:white;
+.clear{
+  clear:left;
 }
 
-
 footer{
-  background-color: #f7f7f7;
-  height:100px;
+  padding:30px 70px;
+  height:300px;
+  background-color: white;
 }
 
 .footer-logo{
-  float:left;
-  height:19px;
-  margin:7px 0;
+  height:25px;
   transition: all 0.3s;
+  width:120px;
 }
 
 .footer-logo:hover{
