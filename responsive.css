@@ -32,11 +32,13 @@
 
   .heading h2{
     font-size:18px;
+    width:200px;
+    margin: 0 auto;
   }
 
   .top-wrapper img{
-    position:static;
     width:360px;
+    position:static;
     display:block;
     margin:30px auto;
   }
