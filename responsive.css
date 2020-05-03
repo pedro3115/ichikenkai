@@ -50,6 +50,14 @@
     font-size:24px;
   }
 
+  .cherry{
+    height:400px;
+  }
+
+  .cup{
+    height:400px;
+  }
+
   .footer-logo{
     display:block;
     padding-top:10px;
@@ -66,6 +74,10 @@
     height:60px;
   }
 
+  .logo{
+    margin:10px auto 0 30%;
+  }
+
   .menu-bar{
     display: none;
   }
@@ -75,15 +87,22 @@
   }
 
   .top-wrapper{
-    height:350px;
+    height:250px;
   }
 
   .top-wrapper h1{
-    font-size:28px;
+    font-size:36px;
+    letter-spacing: none;
+    padding-top:70px;
   }
 
   .top-wrapper h2{
-    font-size: 14px
+    font-size: 20px;
+  }
+
+  .top-wrapper span{
+    display:block;
+
   }
 
   .topic h3{
@@ -102,4 +121,18 @@
     height:300px;
   }
 
+  footer{
+    height:50px;
+  }
+
+}
+
+@media(max-width:500px){
+  .cherry{
+    height:250px;
+  }
+
+  .cup{
+    height:250px;
+  }
 }
