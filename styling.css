@@ -68,10 +68,10 @@ header {
 
 .menu-icon{
   color:white;
-  font-size:32px;
+  font-size:28px;
   position: absolute;
-  top:14px;
-  right:14px;
+  top:16px;
+  right:16px;
   display:none;
 }
 
@@ -211,4 +211,9 @@ footer{
 .footer-logo{
   width:120px;
   margin-top:20px;
+}
+
+.footer-logo:hover{
+  cursor:pointer;
+  opacity:0.9;
 }
