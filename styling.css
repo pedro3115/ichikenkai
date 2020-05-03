@@ -17,162 +17,198 @@ a {
   text-decoration: none;
 }
 
-*{
-  box-sizing: border-box;
-}
-
 .container {
-  max-width: 1170px;
-  width: 100%;
+  width:900px;
   margin:0 auto;
 }
 
 header {
   height: 65px;
   width:100%;
-  padding:0 70px;
-  background-color: rgba(247,247,247,0.9);
+  background-color: rgba(135,0,0,0.9);
   position :fixed;
-  top: 0;
+  top:0;
   z-index: 10;
 }
 
-.header-logo{
+.logo{
+  height:35px;
+  margin:12px 140px 18px 0;
   float:left;
-  height:37px;
-  margin:14px auto;
+}
+
+.logo:hover{
+  cursor: pointer;
+  opacity:0.9;
+}
+
+.menu-bar{
+  float:left;
+  height:65px;
+}
+
+.menu{
+  float:left;
+  height:65px;
+  width:150px;
+  text-align: center;
+  font-family: Hiragino Maru Gothic ProN;
   transition: all 0.3s;
 }
 
-.header-logo:hover{
-  cursor:pointer;
-  opacity:0.7;
+.menu:hover{
+  background-color: #b04466;
 }
 
-.emblem{
-  float:left;
-}
-
-.header-logo img{
-  height:32px;
-}
-
-.header-logo a{
-  font-size:24px;
-  color: #5f5d60;
-  font-family:YuMincho;
-}
-
-.menu-icon {
-  color: #5f5d60;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
-}
-
-.menu-bar {
-  width:190px;
-  float: right;
-  transition: all 0.5s;
-}
-
-.menu-bar:hover {
-  background-color: white;
-}
-
-.menu-bar a {
-  line-height: 65px;
-  text-align:center;
-  color: #5f5d60;
-  display:block;
-}
-
-.top-wrapper {
-  padding:100px 70px 270px  70px;
-  width:100%;
-}
-
-.heading{
-  display: inline-block;
-}
-
-.heading h1{
-  font-size:64px;
-  font-weight:normal;
-  letter-spacing: 5px;
-  color:#5f5d60;
-}
-
-.heading h2{
-  color:#b3aeb5;
-}
-
-.top-wrapper img{
-  display:inline-block;
-  width:600px;
-  border-radius: 50px;
-  position:fixed;
-  top:115px;
-  right:60px;
-  z-index:-10;
-}
-
-.message-wrapper{
-  width:100%;
-  padding:180px 0 100px 0;
-  background-color: #860000;
-  font-family: HiraginoMaruGothicPro;
-}
-
-.message{
-  text-align: center;
-  font-size: 40px;
-  letter-spacing: 5px;
+.menu a{
   color:white;
-  margin-bottom: 100px;
-}
-
-.box{
-  display: inline-block;
-  float: left;
-  width:50%;
-}
-
-.box img{
+  line-height: 65px;
   display:block;
-  width:500px;
-  margin:0 auto;
 }
 
-.clear{
-  clear:left;
+.menu-icon{
+  color:white;
+  font-size:32px;
+  position: absolute;
+  top:14px;
+  right:14px;
+  display:none;
+}
+
+.top-wrapper{
+  height:750px;
+  background-image: url("top.jpg");
+  background-size:cover;
+  text-align:center;
+}
+
+.top-wrapper h1{
+  font-size:110px;
+  color:white;
+  letter-spacing: 5px;
+  padding-top:120px;
+}
+
+.top-wrapper h2{
+  font-size:35px;
+  color:white;
+}
+
+.topic-wrapper{
+  padding:10px 0 30px 0;
+  background-color: rgb(237,237,237);
+}
+
+.topic{
+  margin-top:30px;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+  position:relative;
+}
+
+.topic:hover{
+  cursor:pointer;
+  opacity:
+}
+
+.topic:active{
+  box-shadow: none;
+  top:5px;
+}
+
+.win{
+  background-color: white;
+  color:white;
+}
+
+.win-text{
+  float:left;
+  display: inline-block;
+  width:35%;
+}
+
+.win h3{
+  color:rgba(135,0,0,0.9);
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.win h2{
+  font-size:34px;
+  letter-spacing: 3px;
+  color:#000060;
+  margin-left: 10px;
+}
+
+.win img{
+  display:block;
+  width:65%;
+}
+
+.saber{
+  background-color: #00003b;
+  color:white;
+  position:relative;
+}
+
+.saber img{
+  display: block;
+  width:30%;
+}
+
+.saber-text{
+  position:absolute;
+  top:0;
+  left:30%;
+  padding-left:10px;
+}
+
+.saber h3{
+  font-size:24px;
+  color:#8dddff;
+}
+
+.saber h2{
+  font-size:34px;
+  letter-spacing: 3px;
+}
+
+.cherry{
+  display: inline-block;
+  height:500px;
+  background-color: white;
+  width:48%;
+}
+
+.cherry img{
+  width:100%;
+}
+
+.cherry-text{
+  padding-left:10px;
+}
+
+.cup{
+  display: inline-block;
+  float:right;
+  background-color: white;
+  height:500px;
+  width:48%;
+}
+
+.cup img{
+  width:100%;
+}
+
+.cup-text{
+  padding-left: 10px;
 }
 
 footer{
-  width:100%;
-  padding:30px 70px;
-  height:300px;
-  background-color: white;
+  height:200px;
+  background-color: rgba(135,0,0,0.9)
 }
 
 .footer-logo{
-  height:25px;
-  transition: all 0.3s;
   width:120px;
-}
-
-.footer-logo:hover{
-  cursor:pointer;
-  opacity:0.7;
-}
-
-.footer-logo img{
-  height:22px;
-}
-
-.footer-logo a{
-  font-size:18px;
-  color: #5f5d60;
-  font-family:YuMincho;
+  margin-top:20px;
 }
