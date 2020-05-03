@@ -75,7 +75,8 @@
   }
 
   .logo{
-    margin:10px auto 0 30%;
+    position:absolute;
+    left:10px;
   }
 
   .menu-bar{
@@ -105,20 +106,52 @@
 
   }
 
-  .topic h3{
-    font-size:12px;
+  .win-text{
+    width:100%;
   }
 
-  .topic h2{
-    font-size: 16px;
+  .win img{
+    width:100%;
+  }
+
+  .saber img{
+    width:40%;
+  }
+
+  .saber-text{
+    left:40%;
+  }
+
+  .saber h3{
+    font-size:14px;
+  }
+
+  .saber h2{
+    font-size:20px;
   }
 
   .cherry{
     height:300px;
   }
 
+  .cherry h3{
+    font-size:14px;
+  }
+
+  .cherry h2{
+    font-size:20px;
+  }
+
   .cup{
     height:300px;
+  }
+
+  .cup h3{
+    font-size:14px;
+  }
+
+  .cup h2{
+    font-size:20px;
   }
 
   footer{
