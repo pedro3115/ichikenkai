@@ -31,11 +31,20 @@
   }
 
   .top-wrapper h1{
-    font-size:70px;
+    font-size:80px;
   }
 
   .top-wrapper p{
     font-size:28px;
+  }
+
+  .schedule-wrapper li{
+    font-size:24px;
+    line-height: 80px;
+  }
+
+  .schedule-wrapper span{
+    font-size:36px;
   }
 
   .topic{
@@ -54,8 +63,13 @@
 
 }
 @media(max-width:670px){
+
+  p,a{
+    font-size:10.5px;
+  }
+
   .btn{
-    padding:0 0;
+    border:none;
   }
 
   header{
@@ -78,7 +92,7 @@
   }
 
   .top-wrapper{
-    height:300px
+    height:260px
   }
 
   .top-wrapper h1{
@@ -89,6 +103,7 @@
 
   .top-wrapper p{
     font-size: 20px;
+    margin-top:0;
   }
 
   .top-wrapper span{
@@ -101,16 +116,20 @@
   }
 
   .schedule-wrapper li{
-    font-size:14px;
+    font-size:10.5px;
     line-height: 30px;
   }
 
   .schedule-wrapper span{
-    font-size:20px;
+    font-size:18px;
+  }
+
+  .topic-wrapper{
+    padding:0;
   }
 
   .topic{
-    margin-top:10px;
+    margin-top:0;
   }
 
   .win{
@@ -122,37 +141,27 @@
     width:100%;
     position:absolute;
     text-align: center;
-    top:20%;
+    top:40%;
     color:white;
     padding-left:0;
     z-index: 8;
   }
 
+  .win h2{
+    font-size:20px;
+  }
+
   .win a{
     background-color:white;
-    padding:0 50px;
+    padding:5px 80px;
     border-radius: 20px;
+  }
+
+  .fa-arrow-circle-right{
+    display:none;
   }
 
   .win img{
     width:100%;
-    opacity:.9;
   }
-
-  .saber img{
-
-  }
-
-  .saber-text{
-
-  }
-
-  .cherry{
-    height:150px;
-  }
-
-  .cup{
-    height:150px;
-  }
-
 }
