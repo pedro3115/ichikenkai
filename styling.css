@@ -21,6 +21,10 @@ a {
   box-sizing: border-box;
 }
 
+h1,h2,h3{
+  font-weight: normal;
+}
+
 .btn{
   padding:16px 24px;
   display: inline-block;
@@ -86,13 +90,14 @@ header{
 }
 
 .top-wrapper h1{
-  font-size:110px;
+  font-size:128px;
   letter-spacing: 5px;
   padding-top:120px;
 }
 
 .top-wrapper p{
-  font-size:35px;
+  font-size:45px;
+  margin-top:20px;
 }
 
 .schedule-wrapper{
@@ -141,51 +146,6 @@ header{
 .win img{
   display:block;
   width:60%;
-}
-
-.saber{
-  position:relative;
-}
-
-.saber img{
-  display: block;
-  width:50%;
-}
-
-.saber-text{
-  padding-left:3%;
-  width:50%;
-  position:absolute;
-  top:0;
-  left:50%;
-}
-
-.saber h2{
-  margin-top:10%;
-}
-
-.cherry{
-  display:inline-block;
-  width:45%;
-  margin-left:3.33%;
-  text-align: center;
-}
-
-.cherry img{
-  width:80%;
-  margin:0 auto;
-}
-
-.cup{
-  display:inline-block;
-  width:45%;
-  margin-left: 3.33%;
-  text-align: center;
-}
-
-.cup img{
-  width: 80%;
-  margin:0 auto;
 }
 
 footer{
