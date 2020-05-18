@@ -1,0 +1,171 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration:none;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+header{
+  height: 50px;
+  width:100%;
+  background-color: rgba(130,0,50,0.9);
+  position :fixed;
+  top:0;
+  z-index: 10;
+}
+
+.logo{
+  display:block;
+  height:30px;
+  margin:8px 20px 12px 20px;
+  float:left;
+}
+
+.logo:hover{
+  cursor: pointer;
+  opacity:0.9;
+}
+
+.menu-bar{
+  float:left;
+}
+
+.menu{
+  float:left;
+  color:white;
+  line-height: 50px;
+  padding:0 20px;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.menu:hover{
+  background-color: rgb(180,50,100);
+}
+
+.menu-icon{
+  float:right;
+  color:white;
+  font-size:26px;
+  margin:12px;
+  display:none;
+}
+
+.menu-icon:hover{
+  cursor:pointer;
+}
+
+.sub-menu-bar{
+  text-align:center;
+  background-color: rgba(146,40,80,0.9);
+  position:absolute;
+  top:50px;
+  right:0;
+  display: none;
+}
+
+.sub-menu{
+  display:block;
+  margin:0 auto;
+  color:white;
+  line-height:30px;
+  transition:all 0.3s;
+  padding:10px;
+  border-bottom:1px solid rgb(200,200,200);
+}
+
+.sub-menu:hover{
+  background-color: rgb(200,200,200);
+}
+
+main{
+  padding-top:50px;
+  height:1000px;
+}
+
+.about-club{
+  text-align: center;
+}
+
+.heading{
+    width:160px;
+    margin:30px auto 20px auto;
+    border-bottom:5px solid rgb(130,0,50);
+}
+
+.thread-heading{
+  padding-top:150px;
+  height:500px;
+  background-image: url("thread-background.jpeg");
+  background-size: cover;
+}
+
+.thread-heading p{
+  text-align: center;
+  font-size:72px;
+  color:white;
+  letter-spacing: 5px;
+}
+
+.thread-text{
+  text-align: center;
+}
+
+.thread-text h2{
+  width:160px;
+  margin:30px auto 20px auto;
+  border-bottom:5px solid rgb(130,0,50);
+}
+
+.btn{
+  display:inline-block;
+  color:white;
+  background-color: rgb(200,150,0);
+  padding:14px 28px;
+  margin-top:30px;
+  border-radius: 5px;
+  box-shadow:0 5px #252525;
+  position:relative;
+  transition:all 0.3s;
+}
+
+.btn:hover{
+  opacity:0.8;
+}
+
+.btn:active{
+  top:5px;
+  box-shadow: none;
+}
+
+footer{
+  background-color: rgb(180,180,180);
+  width:100%;
+}
+
+.footer-logo{
+  display:block;
+  margin:0 auto;
+  width:120px;
+}
+
+.footer-logo:hover{
+  cursor:pointer;
+  opacity:0.9;
+}
