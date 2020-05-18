@@ -16,7 +16,11 @@
   main{
     text-align:center;
   }
-
+  
+  .thread-heading{
+    height:200px;
+  }
+  
   .thread-heading p{
     display:none;
   }
