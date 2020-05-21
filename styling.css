@@ -129,6 +129,10 @@ main{
   font-size:50px;
 }
 
+.first span{
+  display:none;
+}
+
 .second{
   background-image:url("twitter-follow.png");
 }
@@ -141,6 +145,10 @@ main{
   background-color:white;
   height:20px;
   width:20px;
+}
+
+.topics{
+  margin-top:20px;
 }
 
 .heading{
@@ -213,6 +221,10 @@ main{
 .btn:active{
   top:5px;
   box-shadow: none;
+}
+
+.contact{
+  padding-top:24px;
 }
 
 .twitter{
