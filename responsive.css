@@ -7,21 +7,65 @@
     display:block;
   }
 
-  .thread-heading p{
+  .swiper-container{
+    height:300px;
+  }
+
+  .first p{
+    padding-top:120px;
+    font-size:32px;
+  }
+
+  .large{
+    display:none;
+  }
+
+  .middle{
+    display:block;
+  }
+
+  .thread-top h1{
     font-size:50px;
   }
 }
 
 @media(max-width:670px){
-  main{
-    text-align:center;
+  p,li{
+    font-size:12px;
   }
-  
-  .thread-heading{
-    height:200px;
+
+  .content{
+    width:95%;
   }
-  
-  .thread-heading p{
+
+  .swiper-container{
+    height:150px;
+  }
+
+  .first p{
+    padding-top:60px;
+    font-size:12px;
+  }
+
+  .timeline-heading{
+    font-size:24px;
+  }
+
+  .middle{
     display:none;
   }
+
+  .small{
+    display:block;
+  }
+
+  .thread-top{
+    height:200px;
+  }
+
+  .thread-top h1{
+    display:none;
+  }
+
+
 }
