@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>仙台一剣会</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script type="text/javascript" src="script.js"></script>
   <script src="https://kit.fontawesome.com/b2c6be8cbb.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styling.css">
   <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="swiper.css">
   <link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
@@ -22,8 +22,8 @@
       <a class="menu" href="contact.html">お問い合わせ</a>
     </div>
     <span id="menu-icon" class="fa fa-bars menu-icon"></span>
-    <div id="sub-menu-bar" class="sub-menu-bar">
-      <a class="sub-menu" href="index.html">トップページ</a>
+    <div id="navigation" class="navigation">
+      <a class="sub-menu" href="index.html">HOME</a>
       <a class="sub-menu" href="news.html">ニュース<br></a>
       <a class="sub-menu" href="schedule.html">大会予定<br></a>
       <a class="sub-menu" href="about.html">フェンシング部について<br></a>
@@ -32,11 +32,24 @@
     </div>
   </header>
   <main id="main">
-    <p>現在作成中です。</p>
-    <a href=""></a>
+    <div class="swiper-container">
+       <div class="swiper-wrapper">
+         <a class="swiper-slide first" href="thread.html"><p>世代を越えて繋がるための交流掲示板</p></a>
+         <a class="swiper-slide second" href="about.html"></a>
+       </div>
+       <div class="swiper-button-prev arrow"></div>
+       <div class="swiper-button-next arrow"></div>
+       <div class="swiper-pagination"></div>
+    </div>
+    <div class="topic">
+      <h2>TOPICS</h2>
+      <p>今後更新していく予定です。</p>
+    </div>
   </main>
   <footer>
     <img class="footer-logo" src="logo.png" href="#">
   </footer>
+  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="swiper.js"></script>
 </body>
 </html>
