@@ -62,8 +62,8 @@ header{
 .menu-icon{
   float:right;
   color:white;
-  font-size:26px;
-  margin:12px;
+  font-size:30px;
+  padding:10px;
   display:none;
 }
 
@@ -71,9 +71,9 @@ header{
   cursor:pointer;
 }
 
-.sub-menu-bar{
+.navigation{
   text-align:center;
-  background-color: rgba(146,40,80,0.9);
+  background-color: rgba(150,40,80,0.9);
   position:absolute;
   top:50px;
   right:0;
@@ -87,50 +87,111 @@ header{
   line-height:30px;
   transition:all 0.3s;
   padding:10px;
-  border-bottom:1px solid rgb(200,200,200);
+  border-bottom:1px solid rgb(243,243,243);
 }
 
 .sub-menu:hover{
-  background-color: rgb(200,200,200);
+  background-color: rgb(243,243,243);
+  color:rgba(150,40,80,0.9);
 }
 
 main{
+  text-align:center;
   padding-top:50px;
-  height:1000px;
+  height:1800px;
 }
 
-.about-club{
-  text-align: center;
+.container {
+  margin: 0 auto;
+  padding: 40px;
+  width: 80%;
+  color: #333;
+  background: #419be0;
+}
+
+.swiper-container{
+  width:100%;
+  height: 400px;
+}
+
+.swiper-slide{
+  background-size:cover;
+  display:block;
+}
+
+.first{
+  background-image:url("thread-background.jpg");
+}
+
+.first p{
+  color:white;
+  padding-top:150px;
+  font-size:50px;
+}
+
+.second{
+  background-image:url("twitter-follow.png");
+}
+
+.arrow:after{
+  color:white;
+}
+
+.swiper-pagination-bullet{
+  background-color:white;
+  height:20px;
+  width:20px;
 }
 
 .heading{
-    width:160px;
-    margin:30px auto 20px auto;
-    border-bottom:5px solid rgb(130,0,50);
+  display: inline-block;
+  padding:0 20px;
+  margin:30px auto 20px auto;
+  border-bottom:5px solid rgb(130,0,50);
 }
 
-.thread-heading{
+.second-heading{
+  color:rgb(130,0,50);
+}
+
+.content{
+  width:670px;
+  margin:0 auto;
+  padding-bottom:30px;
+}
+
+.timeline-wrapper{
+  background-color: rgb(200,200,200);
+  padding:20px 0;
+}
+
+.timeline-heading{
+  color:white;
+  font-size:40px;
+  width:90%;
+  margin:0 auto 20px auto;
+}
+
+.middle{
+  display:none;
+}
+
+.small{
+  display:none;
+}
+
+.thread-top{
   padding-top:150px;
   height:500px;
-  background-image: url("thread-background.jpeg");
+  background-image: url("thread-background.jpg");
   background-size: cover;
 }
 
-.thread-heading p{
-  text-align: center;
+.thread-top h1{
+  font-weight: normal;
   font-size:72px;
   color:white;
   letter-spacing: 5px;
-}
-
-.thread-text{
-  text-align: center;
-}
-
-.thread-text h2{
-  width:160px;
-  margin:30px auto 20px auto;
-  border-bottom:5px solid rgb(130,0,50);
 }
 
 .btn{
@@ -142,7 +203,7 @@ main{
   border-radius: 5px;
   box-shadow:0 5px #252525;
   position:relative;
-  transition:all 0.3s;
+  transition: all 0.2s;
 }
 
 .btn:hover{
@@ -154,8 +215,17 @@ main{
   box-shadow: none;
 }
 
+.twitter{
+  background-color: #00aced;
+  box-shadow:none;
+}
+
+.twitter:active{
+  top:0;
+}
+
 footer{
-  background-color: rgb(180,180,180);
+  background-color: rgb(200,200,200);
   width:100%;
 }
 
