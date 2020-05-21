@@ -31,7 +31,7 @@
 
 @media(max-width:670px){
   p,li{
-    font-size:16px;
+    font-size:14px;
   }
 
   .content{
@@ -44,13 +44,13 @@
 
   .first p{
     padding-top:35px;
-    font-size:24px;
+    font-size: 24px;
   }
-  
+
   .first span{
     display:inline;
   }
-  
+
   .second{
     background-image: url("twitter-follow2.png");
   }
@@ -74,6 +74,5 @@
   .thread-top h1{
     display:none;
   }
-
 
 }
