@@ -46,6 +46,14 @@
     padding-top:60px;
     font-size:12px;
   }
+  
+  .first span{
+    display:inline;
+  }
+  
+  .second{
+    background-image: url("twitter-follow2.png");
+  }
 
   .timeline-heading{
     font-size:24px;
