@@ -12,7 +12,7 @@
 </head>
 <body>
   <header>
-    <a href="index.html"><img class="logo" src="logo.png"></a>
+    <a href="index.html"><img class="header-logo" src="logo.png"></a>
     <div class="menu-bar">
       <a class="menu" href="news.html">ニュース</a>
       <a class="menu" href="schedule.html">大会予定</a>
@@ -20,30 +20,41 @@
       <a class="menu" href="thread.html">交流掲示板</a>
       <a class="menu" href="contact.html">お問い合わせ</a>
     </div>
-    <span id="menu-icon" class="fa fa-bars menu-icon"></span>
-    <div id="navigation" class="navigation">
-      <a class="sub-menu" href="index.html">HOME</a>
-      <a class="sub-menu" href="news.html">ニュース<br></a>
-      <a class="sub-menu" href="schedule.html">大会予定<br></a>
-      <a class="sub-menu" href="about.html">フェンシング部について<br></a>
-      <a class="sub-menu" href="thread.html">交流掲示板<br></a>
-      <a class="sub-menu" href="contact.html">お問い合わせ</a>
+    <div class="hamburger">
+      <i></i>
+      <i></i>
+      <i></i>
     </div>
+    <nav class="navigation">
+      <ul>
+        <li><a class="nav-menu" href="index.html">HOME</a></li>
+        <li><a class="nav-menu" href="news.html">ニュース</a></li>
+        <li><a class="nav-menu" href="schedule.html">大会予定</a></li>
+        <li><a class="nav-menu" href="about.html">フェンシング部について</a></li>
+        <li><a class="nav-menu" href="thread.html">交流掲示板</a>
+        <li><a class="nav-menu" href="contact.html">お問い合わせ</a></li>
+      </ul>
+      <div class="accounts">
+        <a href="https://facebook.com/ichikenkai" target="blank"><span class="fab fa-facebook"></span></a>
+        <a href="https://twitter.com/senFencingichi" target="blank"><span class="fab fa-twitter"></span></a>
+      </div>
+    </nav>
   </header>
-  <main id="main">
+  <main>
     <div class="thread-top">
       <h1>さあ、仲間と交流しよう</h1>
     </div>
-    <div class="thread-text content">
+    <div class="interaction content">
       <h2 class="heading">Interaction</h2>
       <p>掲示板を利用すれば、他のユーザーと気軽に交流できます。現役、OBの垣根を越えてお互いのことをもっとよく知ってみましょう。</p>
     </div>
     <a class="btn" href="https://zawazawa.jp/ichikenkai-thread/" target="blank">さっそく利用する</a>
   </main>
   <footer>
-    <img class="footer-logo" src="logo.png" href="#">
+    <a href="index.html"><img class="footer-logo" src="logo.png"></a>
     <p class="copy-right">© 2020 仙台一剣会</p>
   </footer>
+  <div class="dark"></div>
   <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
