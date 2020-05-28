@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 }
 
 body {
-  font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+  font-family: 'Hiragino Kaku Gothic Pro', sans-serif;
 }
 
 li {
@@ -25,22 +25,17 @@ a {
 header{
   height: 50px;
   width:100%;
-  background-color: rgba(130,0,50,0.9);
+  background-color: #820033;
   position :fixed;
   top:0;
   z-index: 10;
 }
 
-.logo{
+.header-logo{
   display:block;
   height:30px;
   margin:8px 20px 12px 20px;
   float:left;
-}
-
-.logo:hover{
-  cursor: pointer;
-  opacity:0.9;
 }
 
 .menu-bar{
@@ -57,62 +52,94 @@ header{
 }
 
 .menu:hover{
-  background-color: rgb(180,50,100);
+  background-color: #aa2255;
 }
 
-.menu-icon{
-  float:right;
-  color:white;
-  font-size:30px;
-  padding:10px;
-  display:none;
+.hamburger{
+    position: relative;
+    float:right;
+    margin:10px;
+    width: 30px;
+    height: 30px;
+    display:none;
 }
 
-.menu-icon:hover{
+.hamburger:hover{
   cursor:pointer;
 }
 
+.hamburger i{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    position:absolute;
+    transition: all 0.3s;
+}
+
+.hamburger i:nth-child(1) {
+    top: 3px;
+}
+
+.hamburger i:nth-child(2) {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.hamburger i:nth-child(3) {
+    bottom: 3px;
+}
+
+.hamburger.show i:nth-child(1) {
+    transform: translateY(11px) rotate(-45deg);
+}
+
+.hamburger.show i:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.show i:nth-child(3) {
+    transform: translateY(-11px) rotate(45deg);
+}
+
 .navigation{
-  text-align:center;
-  background-color: rgba(150,40,80,0.9);
-  position:absolute;
-  top:50px;
-  right:0;
-  display: none;
+    position: fixed;
+    background-color: #820033;
+    top:50px;
+    width:100%;
+    display:none;
 }
 
-.sub-menu{
-  display:block;
-  margin:0 auto;
+.nav-menu{
+  display:inline-block;
   color:white;
-  line-height:30px;
-  transition:all 0.3s;
+  font-size:16px;
+  line-height:24px;
   padding:10px;
-  border-bottom:1px solid rgb(243,243,243);
 }
 
-.sub-menu:hover{
-  background-color: rgb(243,243,243);
-  color:rgba(150,40,80,0.9);
+.accounts{
+  border-top:1px solid white;
+  margin:0 10px;
+}
+
+.fab{
+  color:white;
+  font-size:24px;
+  margin:10px;
 }
 
 main{
+  height:1800px;
   text-align:center;
   padding-top:50px;
-  height:1800px;
-}
-
-.container {
-  margin: 0 auto;
-  padding: 40px;
-  width: 80%;
-  color: #333;
-  background: #419be0;
 }
 
 .swiper-container{
   width:100%;
   height: 400px;
+  margin-bottom:20px;
 }
 
 .swiper-slide{
@@ -120,21 +147,21 @@ main{
   display:block;
 }
 
-.first{
+.slide1{
   background-image:url("thread-background.jpg");
 }
 
-.first p{
+.slide1 p{
   color:white;
   padding-top:150px;
   font-size:50px;
 }
 
-.first span{
+.slide1 span{
   display:none;
 }
 
-.second{
+.slide2{
   background-image:url("twitter-follow.png");
 }
 
@@ -142,37 +169,29 @@ main{
   color:white;
 }
 
-.swiper-pagination-bullet{
-  background-color:white;
-  height:20px;
-  width:20px;
-}
-
-.topics{
-  margin-top:20px;
-}
-
 .heading{
   display: block;
   padding-left:5px;
-  margin:30px auto 20px auto;
-  border-bottom:1px solid rgb(200,200,200);
-
+  margin-bottom:15px;
+  border-bottom:1px solid #c7c7c7;
 }
 
-.second-heading{
-  color:rgb(130,0,50);
+.sub-heading{
+  color: #820032;
 }
 
 .content{
   text-align: left;
-  width:670px;
-  margin:0 auto;
-  padding-bottom:30px;
+  width:65%;
+  margin:10px auto 25px auto;
+}
+
+.group-photo{
+  display:none;
 }
 
 .timeline-wrapper{
-  background-color: rgb(200,200,200);
+  background-color: #c7c7c7;
   padding:20px 0;
 }
 
@@ -181,14 +200,6 @@ main{
   font-size:40px;
   width:90%;
   margin:0 auto 20px auto;
-}
-
-.middle{
-  display:none;
-}
-
-.small{
-  display:none;
 }
 
 .thread-top{
@@ -208,7 +219,7 @@ main{
 .btn{
   display:inline-block;
   color:white;
-  background-color: rgb(200,150,0);
+  background-color: #c89900;
   padding:14px 28px;
   border-radius: 5px;
   box-shadow:0 5px #252525;
@@ -225,15 +236,9 @@ main{
   box-shadow: none;
 }
 
-.manager{
-  background-color: #55acee;
-  box-shadow:0 5px rgb(100,100,100);
-}
-
 footer{
-  background-color: rgb(200,200,200);
+  background-color: #c7c7c7;
   width:100%;
-  color:white;
 }
 
 .footer-logo{
@@ -243,11 +248,6 @@ footer{
   width:120px;
 }
 
-.footer-logo:hover{
-  cursor:pointer;
-  opacity:0.9;
-}
-
 .copy-right{
   text-align: center;
   font-size:12px;
@@ -255,4 +255,17 @@ footer{
   width:95%;
   margin:0 auto;
   border-top:1px solid white;
+  color:white;
+}
+
+.dark{
+  position:fixed;
+  top:50px;
+  width:100%;
+  height:100%;
+  z-index:5;
+  display:none;
+  background-color: black;
+  opacity:0.7;
+  display:none;
 }
