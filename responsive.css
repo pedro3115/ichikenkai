@@ -3,7 +3,7 @@
     display: none;
   }
 
-  .menu-icon{
+  .hamburger{
     display:block;
   }
 
@@ -11,17 +11,9 @@
     height:300px;
   }
 
-  .first p{
+  .slide1 p{
     padding-top:120px;
     font-size:32px;
-  }
-
-  .large{
-    display:none;
-  }
-
-  .middle{
-    display:block;
   }
 
   .thread-top h1{
@@ -30,41 +22,44 @@
 }
 
 @media(max-width:670px){
-  p,li{
+  .content p,li{
     font-size:14px;
-  }
-
-  .content{
-    width:95%;
+    line-height:30px;
   }
 
   .swiper-container{
     height:150px;
   }
 
-  .first p{
-    padding-top:35px;
-    font-size: 24px;
+  .arrow:after{
+    display:none;
   }
 
-  .first span{
+  .slide1 p{
+    padding-top:35px;
+    font-size: 28px;
+  }
+
+  .slide1 span{
     display:inline;
   }
 
-  .second{
+  .slide2{
     background-image: url("twitter-follow2.png");
+  }
+
+  .group-photo{
+    display:block;
+    margin-top:20px;
+    width:100%;
   }
 
   .timeline-heading{
     font-size:24px;
   }
 
-  .middle{
-    display:none;
-  }
-
-  .small{
-    display:block;
+  .timeline{
+    
   }
 
   .thread-top{
