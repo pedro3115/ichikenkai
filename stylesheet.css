@@ -3,7 +3,7 @@ ul, ol, li,
 h1, h2, h3, h4, h5, h6, p, div {
   margin: 0;
   padding: 0;
-  font-weight:normal;
+  font-weight: normal;
 }
 
 body {
@@ -35,10 +35,6 @@ header{
   display:block;
   height:30px;
   margin:8px 20px 12px 20px;
-  float:left;
-}
-
-.menu-bar{
   float:left;
 }
 
@@ -119,20 +115,20 @@ header{
   padding:10px;
 }
 
-.accounts{
+.sns{
   border-top:1px solid white;
+  padding:10px 3px;
   margin:0 10px;
 }
 
 .fab{
   color:white;
-  font-size:24px;
-  margin:10px;
+  font-size:28px;
+  margin-right:15px;
 }
 
 main{
-  height:1800px;
-  text-align:center;
+  text-align: center;
   padding-top:50px;
 }
 
@@ -169,21 +165,35 @@ main{
   color:white;
 }
 
+.topics{
+  height:500px;
+}
+
 .heading{
   display: block;
-  padding-left:5px;
-  margin-bottom:15px;
-  border-bottom:1px solid #c7c7c7;
+  color:#820033;
+  margin-bottom:10px;
+  padding-left:10px;
+  border-left:5px solid #820033;
+  border-bottom:1px solid #cfcfcf;
 }
 
 .sub-heading{
-  color: #820032;
+  color: #820033;
 }
 
 .content{
   text-align: left;
-  width:80%;
-  margin:10px auto 25px auto;
+  width:90%;
+  margin:25px auto 80px auto;
+}
+
+.news{
+  height:600px;
+}
+
+.schedule{
+  height:600px;
 }
 
 .group-photo{
@@ -191,15 +201,55 @@ main{
 }
 
 .timeline-wrapper{
-  background-color: #c7c7c7;
-  padding:20px 0;
+  background-color: #cfcfcf;
+  padding:30px 0 100px 0;
+  margin-bottom:50px;
 }
 
 .timeline-heading{
-  color:white;
+  color: white;
   font-size:40px;
+  line-height:90px;
   width:90%;
   margin:0 auto 20px auto;
+}
+
+.smartphone-size{
+  display:none;
+}
+
+.full-open-btn{
+  color:#820033;
+  cursor:pointer;
+  display:inline-block;
+}
+
+.result-list-item {
+  margin:10px;
+  text-align: left;
+}
+
+.year{
+  cursor:pointer;
+  display:inline-block;
+}
+
+.fa-caret-down{
+  font-size:20px;
+  color:rgb(80,80,80);
+  margin-left:5px;
+  transition:all 0.3s;
+}
+
+.fa-caret-down.turn{
+  transform: rotate(180deg);
+}
+
+.result {
+  display: none;
+  padding: 10px 0px;
+  margin-bottom: 15px;
+  border-bottom:1px solid #cfcfcf;
 }
 
 .thread-top{
@@ -213,7 +263,17 @@ main{
   font-weight: normal;
   font-size:72px;
   color:white;
+  opacity:0.95;
   letter-spacing: 5px;
+}
+
+.thread{
+  height:350px;
+}
+
+.btn-wrapper{
+  text-align: center;
+  padding-top:30px;
 }
 
 .btn{
@@ -238,11 +298,12 @@ main{
 
 .form{
   padding:30px 0 50px 0;
-  background-color: rgb(243,243,243);
+  background-color: #f7f7f7;
+  height:700px;
 }
 
 footer{
-  background-color: #c7c7c7;
+  background-color: #cfcfcf;
   width:100%;
 }
 
@@ -273,4 +334,9 @@ footer{
   background-color: black;
   opacity:0.7;
   display:none;
+}
+
+.seo{
+  font-size:16px;
+  margin-top:415px;
 }
