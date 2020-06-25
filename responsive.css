@@ -24,7 +24,7 @@
 @media(max-width:670px){
   .content p,li{
     font-size:14px;
-    line-height:24px;
+    line-height: 24px;
   }
 
   .swiper-container{
@@ -50,16 +50,21 @@
 
   .group-photo{
     display:block;
-    margin-top:20px;
     width:100%;
+    margin-top:15px;
   }
 
   .timeline-heading{
-    font-size:24px;
+    font-size:28px;
+    line-height: normal;
   }
 
-  .timeline{
-    
+  .pc-size{
+    display: none;
+  }
+
+  .smartphone-size{
+    display:block;
   }
 
   .thread-top{
