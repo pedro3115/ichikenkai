@@ -16,6 +16,20 @@
     font-size:32px;
   }
 
+  .flex{
+    flex-wrap:wrap;
+  }
+
+  .topics-container{
+    width:100%;
+  }
+
+  .home-schedule-container{
+    width:100%;
+    margin:20px;
+    height:200px;
+  }
+
   .thread-top h1{
     font-size:50px;
   }
@@ -59,11 +73,11 @@
     line-height: normal;
   }
 
-  .pc-size{
+  .pc-size-timeline{
     display: none;
   }
 
-  .smartphone-size{
+  .smartphone-size-timeline{
     display:block;
   }
 
