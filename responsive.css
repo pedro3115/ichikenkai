@@ -73,9 +73,13 @@
   .home-schedule span{
     font-size:20px;
   }
+  
+  .date{
+    font-size:16px;
+  }
 
   .home-schedule p{
-    font-size:14px;
+    font-size:18px;
   }
 
   .group-photo{
