@@ -149,11 +149,7 @@ main{
 .slide1 p{
   color:white;
   padding-top:150px;
-  font-size:50px;
-}
-
-.slide1 span{
-  display:none;
+  font-size:72px;
 }
 
 .slide2{
@@ -215,6 +211,10 @@ main{
 
 .home-schedule-container{
   width:30%;
+}
+
+.home-schedule-text{
+  padding-top:5px;
 }
 
 .heading{
