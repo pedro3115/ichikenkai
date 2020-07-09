@@ -12,8 +12,8 @@
   }
 
   .slide1 p{
-    padding-top:120px;
-    font-size:32px;
+    font-size:54px;
+    padding-top:100px;
   }
 
   .home-flex{
@@ -27,7 +27,7 @@
 
   .home-schedule-container{
     height:200px;
-    margin-bottom:65px;
+    margin-bottom:150px;
   }
 
   .thread-top h1{
@@ -54,12 +54,8 @@
   }
 
   .slide1 p{
-    padding-top:35px;
+    padding-top:45px;
     font-size: 28px;
-  }
-
-  .slide1 span{
-    display:inline;
   }
 
   .slide2{
