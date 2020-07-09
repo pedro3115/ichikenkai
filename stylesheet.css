@@ -169,31 +169,30 @@ main{
   color:white;
 }
 
-.flex{
+.home-flex{
   display:flex;
 }
 
-.home-item{
-  margin-bottom:65px;
+.home-flex-item{
+  margin:10px 0 65px 17px;
   border-radius: 3px;
   box-shadow: 0 3px 5px black;
   display:inline-block;
   height:340px;
 }
 
-.home-item-bar{
+.item-bar{
   background-color:#00001a;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  font-size:;
+  padding-top:5px;
   color:white;
   height:40px;
   font-family:cursive;
 }
 
-.topics-container{
+.topic-container{
   width:65%;
-  margin:20px;
 }
 
 .topic{
@@ -202,31 +201,20 @@ main{
   padding-left:25px;
 }
 
-.date{
-  font-family:cursive;
-  font-size:18px;
-}
-
-.link{
-  color:black;
+.topic a{
   text-decoration: underline;
 }
 
-.link:hover{
+.topic a:hover{
   color:#dd881b;
+}
+
+.date{
+  font-family:cursive;
 }
 
 .home-schedule-container{
   width:30%;
-  margin:20px 20px 0 0;
-}
-
-.home-schedule{
-  font-size:18px;
-}
-
-.home-schedule span{
-  font-size:32px;
 }
 
 .heading{
