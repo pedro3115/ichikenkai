@@ -16,18 +16,18 @@
     font-size:32px;
   }
 
-  .flex{
+  .home-flex{
     flex-wrap:wrap;
   }
 
-  .topics-container{
-    width:100%;
+  .home-flex-item{
+    width:95%;
+    margin:8px auto;
   }
 
   .home-schedule-container{
-    width:100%;
-    margin:20px;
     height:200px;
+    margin-bottom:65px;
   }
 
   .thread-top h1{
@@ -39,6 +39,10 @@
   .content p,li{
     font-size:14px;
     line-height: 24px;
+  }
+
+  .home-flex-item p{
+    font-size:14px;
   }
 
   .swiper-container{
@@ -60,26 +64,6 @@
 
   .slide2{
     background-image: url("twitter-follow2.png");
-  }
-
-  .home-item-bar{
-    padding-top:5px;
-  }
-
-  .topic-text{
-    font-size:14px;
-  }
-
-  .home-schedule span{
-    font-size:20px;
-  }
-  
-  .date{
-    font-size:16px;
-  }
-
-  .home-schedule p{
-    font-size:18px;
   }
 
   .group-photo{
