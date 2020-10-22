@@ -250,13 +250,13 @@ main{
 }
 
 .timeline-wrapper{
-  background-color: #cfcfcf;
+  background-color: #f3f3f3;
   padding:30px 0 100px 0;
   margin:80px 0 50px 0;
 }
 
 .timeline-heading{
-  color: white;
+  color: #000037;
   font-size:40px;
   line-height:90px;
   width:90%;
